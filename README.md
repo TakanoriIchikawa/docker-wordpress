@@ -2,7 +2,7 @@
 
 #### 1. Gitクローン
 ```
-$ git clone https://github.com/TakanoriIchikawa/docker-wordpress.git プロジェクト名
+git clone https://github.com/TakanoriIchikawa/docker-wordpress.git プロジェクト名
 ```
 
 #### 2. 環境変数の設定
@@ -21,17 +21,17 @@ DB_ROOT_PASSWORD=root
 
 #### 3. Dockerイメージのビルド
 ```
-$ docker compose build --no-cache
+docker compose build --no-cache
 ```
 
 #### 4. Dockerコンテナの起動
 ```
-$ docker compose up -d
+docker compose up -d
 ```
 
 #### 5. Wordpressのインストール
 ```
-$ docker compose exec app sh /tmp/setup.sh
+docker compose exec app sh /tmp/setup.sh
 ```
 
 http://localhost:{.envのWEB_PORT} にアクセスすると下記画面が表示
@@ -52,10 +52,10 @@ http://localhost:{.envのWEB_PORT} にアクセスすると下記画面が表示
 
 #### 9 . リモートリポジトリの変更
 ```
-$ git remote set-url origin プロジェクトのリモートリポジトリURL
+git remote set-url origin プロジェクトのリモートリポジトリURL
 ```
 
 #### 10 . リモートリポジトリへプッシュ
 ```
-$ git push origin master
+git push origin master
 ```
