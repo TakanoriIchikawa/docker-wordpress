@@ -40,8 +40,8 @@ http://localhost:{.envのWEB_PORT} にアクセスすると下記画面が表示
 
 #### 6. Wordpressの初期設定（DB）
 - データベース名、ユーザー名、パスワードは`.env`の値を入力
-- データベスのホスト名は`db`（dockerのコンテナ名）と入力
-- 手ぶる接頭辞は任意（デフォルトはwp_）
+- データベースのホスト名は`db`（dockerのコンテナ名）と入力
+- テーブルの接頭辞は任意（デフォルトはwp_）
 
 ![docker-wordpress2](https://user-images.githubusercontent.com/53390190/171085529-4e1f2094-4ade-4f11-8de2-2dc79483f011.png)
 
